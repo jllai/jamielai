@@ -145,3 +145,42 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.dp2 {
+  text-align: center;
+}
+
+.dp2-setup {
+  padding: 5vw 5vw 0vw 5vw;
+}
+
+.dp2-setup h4 {
+  color: #BD5D38;
+}
+
+.dp2-setup p {
+  color: black;
+  padding: 1vw 1vw 0vw 1vw;
+}
+
+.personas {
+  padding: 1vw 3vw 0vw 3vw;
+}
+
+ul {
+  color: black;
+}
+
+.dp2-setup img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.dp2-setup h2 {
+  text-align: center;
+}
+
+
+
