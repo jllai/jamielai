@@ -1,0 +1,76 @@
+body {
+	margin: 0px 20%;
+}
+
+h1 {
+	padding-top: 100px;
+	color: #BF0000;
+}
+
+h2 {
+	text-align: left;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+img {
+	width: 50%;
+}
+
+a {
+	color: #BF0000;
+}
+
+a:hover {
+	color: #FF6F0D;
+	text-decoration: none;
+}
+
+i {
+	font-size: 20px;
+}
+
+b {
+	color: black;
+	font-weight: 900;
+}
+
+/*KENDO PAGE*/
+.kendo-imgs {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 5%;
+	justify-content: center;
+}
+
+.kendo-img {
+	width: 200px;
+}
+
+blockquote {
+	margin: 0px 50px;
+}
+
+
+
+
+
+
+
+/*QUICKEN LOANS PAGE*/
+.ql-about {
+	margin-bottom: 15vh;
+}
+.videos {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+}
+
+.videos {
+	margin-bottom: 50px;
+}
+
+
+
+
