@@ -74,3 +74,35 @@ blockquote {
 
 
 
+/*Catholic Social Services*/
+.ad {
+	display: flex;
+}
+
+.ad img {
+	width: 20vw;
+}
+
+.personas {
+	text-align: center;
+}
+
+.personas img {
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.findings p {
+	margin-left: 15px;
+}
+
+.expo {
+	width: 100%;
+}
+
+
+
+
+
+
+
