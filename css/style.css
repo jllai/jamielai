@@ -107,6 +107,10 @@ nav {
 	z-index: 1;
 }
 
+#portfolio {
+	margin-top: 100px;
+}
+
 .portfolio {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -115,8 +119,6 @@ nav {
 	margin-bottom: 40px;
 	justify-content: center;
 	grid-column-gap: 5px;
-
-	margin-top: 20px;
 }
 
 .portfolio div {
