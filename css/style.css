@@ -67,10 +67,6 @@ nav {
   padding-top:80px;
 }
 
-/*.container {
-	margin-top: 60px;
-}*/
-
 .nav-item {
 	list-style-type: none;
 	color: #BF0000;
@@ -119,6 +115,8 @@ nav {
 	margin-bottom: 40px;
 	justify-content: center;
 	grid-column-gap: 5px;
+
+	margin-top: 20px;
 }
 
 .portfolio div {
