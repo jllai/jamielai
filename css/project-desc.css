@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-	padding-top: 100px;
+	padding-top: 25px;
 	color: #BF0000;
 }
 
@@ -11,6 +11,11 @@ h2 {
 	text-align: left;
 	margin-bottom: 5px;
 	margin-top: 20px;
+}
+
+h5 {
+	text-align: center;
+	color: grey;
 }
 
 img {
@@ -26,8 +31,10 @@ a:hover {
 	text-decoration: none;
 }
 
-i {
-	font-size: 20px;
+p, li {
+	line-height: 1.8;
+	font-size: 16px;
+	color: #6E6E6E;
 }
 
 b {
@@ -35,21 +42,66 @@ b {
 	font-weight: 900;
 }
 
+nav li {
+	font-size: 24px;
+}
+
+.header {
+	width: 100%;
+}
+
+.banner {
+	width: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.summary {
+	padding: 20px 0px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	text-align: center;
+	background-color: #FAFAFA;
+	border-radius: 10px;
+	margin-top: 10px;
+
+}
+
+
+
+
+
+
+
 /*KENDO PAGE*/
 .kendo-imgs {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	column-gap: 5%;
-	justify-content: center;
+	column-gap: 10px;
+	justify-items: center;
+	margin: 20px 0px;
 }
 
 .kendo-img {
 	width: 200px;
+	justify-items: center;
 }
 
 blockquote {
 	margin: 0px 50px;
 }
+
+.kendo.header {
+	background-color: #00274B;
+}
+
+.kendo.banner {
+	margin-top: 75px;
+}
+
+
 
 
 
@@ -71,25 +123,39 @@ blockquote {
 	margin-bottom: 50px;
 }
 
+.ql.header {
+	background-color: #1B9E98;
+}
+
+.ql.banner {
+
+}
+
 
 
 
 /*Catholic Social Services*/
 .ad {
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
 }
 
 .ad img {
-	width: 20vw;
+	width: 15vw;
 }
 
-.personas {
+.css.header {
+	background-color: #025373;
+}
+
+.css-personas {
 	text-align: center;
 }
 
 .personas img {
 	margin-bottom: 20px;
-	width: 100%;
+	width: 50%;
 }
 
 .findings p {
@@ -100,7 +166,138 @@ blockquote {
 	width: 100%;
 }
 
+.svg-inline--fa.fa-w-16 {
+	width: 20px;
+}
 
+
+
+
+
+
+
+/*NETFLIX SHOWTIME*/
+.netflix.header {
+    background-color: #E21121;
+}
+
+.netflix-img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/*DIGITAL PRINTS*/
+
+.dig-prints {
+	margin-top: 50px;
+}
+
+.digital-body {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dig-h3 {
+	margin-top: 50px;
+	font-size: 48px;
+	text-align: center;
+}
+
+.dig-img {
+	display: block;
+	margin: 0px auto;
+	width: 50%;
+	-webkit-box-shadow: -1px 3px 12px 2px rgba(163,163,163,1);
+	-moz-box-shadow: -1px 3px 12px 2px rgba(163,163,163,1);
+	box-shadow: -1px 3px 12px 2px rgba(163,163,163,1);
+	margin-bottom: 10px;
+}
+
+.lock-screen {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	justify-items: center;
+	grid-gap: 10px;
+}
+
+.lock-screen img {
+	width: 100%;
+}
+
+
+
+
+
+/*Data Breach*/
+.data-breach.header {
+	background-color: #5069B2;
+}
+
+.letter {
+	margin-bottom: 10px;
+	padding: 10px;
+ 	box-shadow: 0px 0px 2px #aaaaaa;
+}
+
+.letters {
+	display: inline-flex;
+	width: 100%;
+	flex-wrap: wrap;
+  	align-items: center;
+  	justify-content: center;
+}
+
+
+
+
+
+
+footer {
+	color: #FF6F0D;
+}
+
+@media only screen and (max-width: 900px) {
+	body {
+		margin: 0px 20px;
+	}
+	.lock-screen {
+		grid-template-columns: 1fr 1fr;
+	}
+
+@media only screen and (max-width: 650px) {
+	img {
+		display: block;
+	}
+	body {
+		margin: 0px 10px;
+	}
+
+	.kendo-imgs {
+		grid-template-columns: 1fr;
+		grid-gap: 10px;
+		justify-items: center;
+	}
+
+	.kendo-imgs img {
+		width: 80%;
+	}
+
+	.ad {
+		grid-template-columns: 1fr;
+	}
+
+	.ad img {
+		width: 80%;
+	}
 
 
 

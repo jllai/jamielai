@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-    <meta <b>name=</b>"viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta <b>name=</b>"description" content="portfolio">
-    <meta <b>name=</b>"author" content="Jamie Lai">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="portfolio">
+    <meta name="author" content="Jamie Lai">
 
     <title>Jamie Lai</title>
 
@@ -30,6 +30,8 @@
   <link href="css/project-desc.css" rel="stylesheet">
 </head>
 
+<body>
+
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="sideNav">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -50,13 +52,26 @@
       </div>
 </nav>
 
-<h1 class="dp2">Netflix Showtime</h1>
+<div class="netflix header">
+  <img class="netflix banner" src="img/netflix-banner.png">
+</div>
+
+<div class="summary">
+  <h3>TYPE</h3>
+  <h3>ROLE</h3>
+  <h3>TOOLS</h3>
+  <h3>METHODS</h3>
+  <p>Course Project · ENTR 390.12</p>
+  <p>UX Design · Product Design · Product Management</p>
+  <p>Adobe Illustrator · inVision · Sketch</p>
+  <p>Product Developement · Usability Testing · Iteration</p>
+</div>
 
 <div class="problem-statement dp2-setup">
 
   <h2>Problem Statement</h2>
 
-  <p>Netflix is a streaming service that takes shows and movies and lets subscribers watch them anytime, anywhere. When a show or movie is released onto Netflix, subscribers are able to stream and watch them all at once - a phenomenon called “bingeing”. However, the way this product is structured makes Netflix a fairly solitary product; there is no real way to connect with other users and increase social interaction, because the shows and movies are meant to be streamed on your own time, rather than with groups of people (like network TV).
+  <p>Netflix is a streaming service that takes shows and movies and lets subscribers watch them anytime, anywhere. When a show or movie is released onto Netflix, subscribers are able to stream and watch them all at once - a phenomenon called “bingeing”. However, the way this product is structured makes Netflix a fairly solitary product; there is no real way to connect with other users and increase social interaction because the shows and movies are meant to be streamed on your own time, rather than with groups of people (like network TV).
   <br><br>
   <b>There is no easy way for a Netflix user to extensively engage with other users while streaming a show or movie.</b></p>
 </div>
@@ -72,8 +87,8 @@
 
   <div class="personas">
     <h5>Primary Persona</h5>
-    <p><b>Name:</b> Jackson Jones <br> <b>Age:</b> 27 <br> <b>Location:</b> Toledo, OH <br> <b>Favorite Netflix shows:</b> Stranger Things, Black Mirror, The Office, Parks and Rec, Daredevil <br> Bio: Jackson is a sociology/psych PhD student who enjoys spending his free time online playing games and bingeing his favorite shows. He’s an avid user of social media platforms like Tumblr, Reddit, and Twitter, and primarily uses these platforms to talk to fans of the shows he enjoys watching. However, now that more and more of his favorite shows are entering the Netflix domain, he feels a pressure to finish an entire season before interacting with anyone online.</p>
-    <p>Goals/Motivation</p>
+    <p><b>Name:</b> Jackson Jones <br> <b>Age:</b> 27 <br> <b>Location:</b> Toledo, OH <br> <b>Favorite Netflix shows:</b> Stranger Things, Black Mirror, The Office, Parks and Rec, Daredevil <br> <b>Bio:</b> Jackson is a sociology/psych PhD student who enjoys spending his free time online playing games and bingeing his favorite shows. He’s an avid user of social media platforms like Tumblr, Reddit, and Twitter, and primarily uses these platforms to talk to fans of the shows he enjoys watching. However, now that more and more of his favorite shows are entering the Netflix domain, he feels a pressure to finish an entire season before interacting with anyone online.</p>
+    <p><b>Goals/Motivation</b></p>
     <ul>
       <li>To become closer to the fanbase and talk to more people that are also fans of the shows he enjoys</li>
       <li>To feel the communal joy of watching a show with thousands of other people at the same time</li>
@@ -85,8 +100,8 @@
     </ul>
 
     <h5>Secondary Persona</h5>
-    <p><b>Name:</b> Kamala Harrison <br> <b>Age:</b> 18 <br> <b>Location:</b> Ithaca, NY <br> <b>Favorite Netflix shows:</b> GLOW, Queer Eye, Orange is the New Black, You <br> Bio: Kamala loves watching Netflix with her friend group back home in Michigan. Whenever her friend group gets together, they always find a fun show or movie to watch together. Since moving away for college, Kamala’s been struggling to find a foothold in her new life, and wishes for some form of stability. She misses her friends, and wants a way to connect with them while they’re living their different lives.</p>
-    <p>Goals/Motivation</p>
+    <p><b>Name:</b> Kamala Harrison <br> <b>Age:</b> 18 <br> <b>Location:</b> Ithaca, NY <br> <b>Favorite Netflix shows:</b> GLOW, Queer Eye, Orange is the New Black, You <br> <b>Bio:</b> Kamala loves watching Netflix with her friend group back home in Michigan. Whenever her friend group gets together, they always find a fun show or movie to watch together. Since moving away for college, Kamala’s been struggling to find a foothold in her new life, and wishes for some form of stability. She misses her friends, and wants a way to connect with them while they’re living their different lives.</p>
+    <p><b>Goals/Motivation</b></p>
     <ul>
       <li>To maintain a connection with her childhood friends as they split into different life paths</li>
       <li>To find stability in her rocky new college life</li>
@@ -99,8 +114,8 @@
     </ul>
 
     <h5>Tertiary Persona</h5>
-    <p><b>Name:</b> Yin Guo <br> <b>Age:</b> 23 <br> <b>Location:</b> Singapore <br> <b>Favorite Netflix shows:</b> Breaking Bad, Mindhunter, You, Master of None <br> Bio: Yin was an international student studying at Columbia, but she recently moved back to Singapore shortly after graduation to work at a company there. She loves her new job and is excited for the opportunities it will bring her, but she also misses her American partner, who’s finishing up their final year in school. The long distance, coupled by the half-day time difference, makes it extremely difficult to talk to them, let alone find things to do with them. She can feel the relationship starting to strain because of this, and she wants to find a way to fix it.</p>
-    <p>Goals/Motivation</p>
+    <p><b>Name:</b> Yin Guo <br> <b>Age:</b> 23 <br> <b>Location:</b> Singapore <br> <b>Favorite Netflix shows:</b> Breaking Bad, Mindhunter, You, Master of None <br> <b>Bio:</b> Yin was an international student studying at Columbia, but she recently moved back to Singapore shortly after graduation to work at a company there. She loves her new job and is excited for the opportunities it will bring her, but she also misses her American partner, who’s finishing up their final year in school. The long distance, coupled by the half-day time difference, makes it extremely difficult to talk to them, let alone find things to do with them. She can feel the relationship starting to strain because of this, and she wants to find a way to fix it.</p>
+    <p><b>Goals/Motivation</b></p>
     <ul>
       <li>She loves her partner, and wants to maintain a strong relationship with them</li>
       <li>Find activities that they can do together despite the distance and time difference</li>
@@ -117,9 +132,9 @@
   <div class="dp2-setup">
     <h2>Design Process</h2>
     <p>I did an assortment of competitive analyses to determine the best layout for this Chrome extension. Right now, the only competitor really is Netflix Party, which only does private chats for friends and syncs of the play/pause buttons, but little else.</p>
-    <img src="img/netflix-party.png">
+    <img class="netflix-img" src="img/netflix-party.png">
     <p>Another product I looked at was Twitch. Twitch mirrors a lot of what my product will have; a live chat, an active stream, and, the ability to hop into the middle of a stream.</p>
-    <img src="img/twitch-chat.png">
+    <img class="netflix-img" src="img/twitch-chat.png">
 
     <p>After looking at other products for inspiration, I knew what I needed: a chatbox that anyone, anonymous or not, can enter, preset showtimes that will start on the half hour, and the ability to start and join and private screening with friends and/or significant others.</p>
   </div>
@@ -133,20 +148,20 @@
   <div class="dp2-setup">
     <p>I wanted the product to be as personable and friendly as possible. This means making the chat seem familiar, and making the aesthetics of the extension look similar to Netflix's aesthetics.</p>
     <p>The first thing I did was make the showtime options. I wanted them to start every half an hour, so people have time to set settled, and yet not have to wait so long that they get bored and decide to leave.</p>
-    <img src="img/find showtime.png">
+    <img class="netflix-img" src="img/find showtime.png">
     <p>Then, I let everyone choose their own handle/user<b>name.</b> This makes it a lot easier to identify certain people, which makes the entire chat feel more real and more like the users are talking to actual people.</p>
-    <img src="img/input username.png">
+    <img class="netflix-img" src="img/input username.png">
     <p>From here, the chatroom is pretty intuitive to use; you can hide the chat whenever you want, you can pin certain users to see their funny remarks, and other users can ping you using the "@" symbol.</p>
 
     <p>As for the private showtimes feature, I followed Netflix Party's example of providing a link for other friends to click on in order to join. While not the most efficient way, it is the easiest for this first iteration.</p>
-    <img src="img/inviting.png">
+    <img class="netflix-img" src="img/inviting.png">
     <p>After everyone is onboarded, the private screening can start and everyone has the option of turning on their audio and video for better communication.</p>
-    <img src="img/video with friends.png">
+    <img class="netflix-img" src="img/video with friends.png">
   </div>
 
   <div class="dp2-setup">
     <h2>Usability Test Results</h2>
-    <p>There were a few usabilities issues that I cleaned up after a few usability tests on friend. The main ones were:</p>
+    <p>There were a few usabilities issues that I cleaned up after a few usability tests. The main ones were:</p>
     <ul>
       <li>Making the volume toggle on a person's video more explicit. This was fixed by adding a very small volume icon to the red slider</li>
       <li>Changing the "pin user" so that while the user shows up in the grey box about your chatline, it also shows up in the chat still to provide the necessary context to the user's post</li>
@@ -175,7 +190,11 @@
   <script src="js/resume.min.js"></script>
 
 </body>
+<script type="text/javascript">
+   $("body").addClass("load");
+</script>
 
+<footer><p>Made from scatch, with love <3</p></footer>
 </html>
 
 

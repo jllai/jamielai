@@ -55,9 +55,7 @@
 </nav>
 
 <div class="top">
-	<img src="img/logo.png" class="logo">
-	<h1>JAMIE <b>LAI</b></h1>
-	<h2>UX Designer. Researcher. Coder</h2>
+	<img id="logohead" src="img/logo-full.png" alt="Jamie Lai - UX Designer. Researcher. Coder.">
 </div>
 
 <div id="portfolio" class="container">
@@ -70,6 +68,13 @@
 		<div><a class="product-des" data-filter="product-des" href="#portfolio" role="button">Product Design</a></div>
 	</div>
 	<div class="portfolio">
+		<div class="research" data-work="research">
+			<a href="data-breach.html"><img src="img/data-breach.png"></a>
+			<div>
+				<h3>Data Breach Letter Redesign</h3>
+				<h4>Research</h4>
+			</div>
+		</div>
 		<div class="research" data-work="research">
 			<a href="css.html"><img src="img/CSS.png"></a>
 			<div>
@@ -120,16 +125,9 @@
 			</div>
 		</div>
 		<div class="graphic-des" data-work="graphic-des">
-			<img src="img/engage.png">
+			<a href="digital-print.html"><img src="img/lychee-banner.png"></a>
 			<div>
-				<h3>Club Posters</h3>
-				<h4>Graphic Design</h4>
-			</div>
-		</div>
-		<div class="graphic-des" data-work="graphic-des">
-			<img src="img/lychee-banner.png">
-			<div>
-				<h3>Digital Prints</h3>
+				<h3>Other Graphics</h3>
 				<h4>Graphic Design</h4>
 			</div>
 		</div>
@@ -139,6 +137,14 @@
 <div id="experience" class="container">
 	<div class="work-experience">
 		<h2>Work Experience</h2>
+		<div class="experience">
+			<div class="exp-info">
+				<h5><b>Data Breach Letter Research</b></h5>
+				<h6>Research Assistant and Designer</h6>
+				<p>Working with Professor Florian Schaub and a PhD student on improving security letters and notifications to increase actionability from users. Designed prototype letters, conducted interviews, and submitted Late Breaking Work to SIGCHI Conference.</p>
+			</div>
+			<span><i>January 2019 - Present</i></span>
+		</div>
 		<div class="experience">
 			<div class="exp-info">
 				<h5><b>Quicken Loans</b></h5>
@@ -154,14 +160,6 @@
 				<p>Worked with the Catholic Social Services to research and create an online assessment test for caregivers that aids in risk prevention. Created a research and usability test deliverable along with an online assessment prototype</p>
 			</div>
 			<span><i>January 2019 - April 2019</i></span>
-		</div>
-		<div class="experience">
-			<div class="exp-info">
-				<h5><b>Security Breach Research</b></h5>
-				<h6>Research Assistant and Designer</h6>
-				<p>Working with Professor Florian Schaub and a PhD student on improving security letters and notifications to increase actionability from users. Designed prototype letters and currently constructing experiments related to the letters.</p>
-			</div>
-			<span><i>January 2019 - Present</i></span>
 		</div>
 		<div class="experience">
 			<div class="exp-info">
@@ -198,6 +196,9 @@
 </body>
 
 <script>
+
+	$("body").addClass("load");
+
 	(function($) {
 
 	  'use strict';
