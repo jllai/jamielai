@@ -66,7 +66,6 @@ nav li {
 	background-color: #FAFAFA;
 	border-radius: 10px;
 	margin-top: 10px;
-
 }
 
 
@@ -149,13 +148,12 @@ blockquote {
 	background-color: #025373;
 }
 
-.css-personas {
+.personas {
 	text-align: center;
 }
 
 .personas img {
-	margin-bottom: 20px;
-	width: 50%;
+	margin: 0px auto 30px auto;
 }
 
 .findings p {
@@ -256,9 +254,9 @@ blockquote {
   	justify-content: center;
 }
 
-
-
-
+.pillars.header {
+	background-color: #8BBC8B;
+}
 
 
 footer {
@@ -299,7 +297,19 @@ footer {
 		width: 80%;
 	}
 
+@media only screen and (max-width: 400px) {
+	img {
+		width: 100%;
+	}
 
+	.video, .final-video {
+		margin: auto;
+	}
+
+	.summary {
+		grid-template-columns: 1fr 1fr;
+	}
+}
 
 
 
